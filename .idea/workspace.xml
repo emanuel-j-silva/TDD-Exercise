@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: simplify the error message call">
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: simplify the error message call in the test class">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727208407901</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test: simplify the error message call in the test class">
+      <created>1727208721986</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727208721986</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +208,7 @@
     <MESSAGE value="test: check if the input value is null, blank or empty" />
     <MESSAGE value="feat: validate the input value" />
     <MESSAGE value="refactor: simplify the error message call" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: simplify the error message call" />
+    <MESSAGE value="test: simplify the error message call in the test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: simplify the error message call in the test class" />
   </component>
 </project>

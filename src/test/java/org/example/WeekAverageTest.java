@@ -88,4 +88,12 @@ public class WeekAverageTest {
 
         assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
+
+    @Test
+    @DisplayName("Should return error when input contains non-numeric values")
+    void shouldErrorNonNumeric(){
+        input = " 1 1 1 2 2 B 3";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
+    }
 }

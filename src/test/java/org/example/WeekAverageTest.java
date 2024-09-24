@@ -46,4 +46,20 @@ public class WeekAverageTest {
 
         assertThat(weekAverage.daysAbove(input)).isEqualTo(6);
     }
+
+    @Test
+    @DisplayName("Should return error when day count is less than seven")
+    void shouldErrorLessThanSeven(){
+        input = "1 1 1 2 3";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+    }
+
+    @Test
+    @DisplayName("Should return error when day count is greater than seven")
+    void shouldErrorGreaterThanSeven(){
+        input = "1 1 1 2 2 2 3 3 3";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+    }
 }

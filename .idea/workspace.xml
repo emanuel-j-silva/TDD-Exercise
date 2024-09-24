@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: sample that should return six days above">
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: extraction of some methods to calculate days above">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727153450223</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: extraction of some methods to calculate days above">
+      <created>1727205707031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727205707031</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +153,7 @@
     <MESSAGE value="test: reduce code redundancy" />
     <MESSAGE value="test: sample that should return three days above" />
     <MESSAGE value="test: sample that should return six days above" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: sample that should return six days above" />
+    <MESSAGE value="refactor: extraction of some methods to calculate days above" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: extraction of some methods to calculate days above" />
   </component>
 </project>

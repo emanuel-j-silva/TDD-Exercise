@@ -5,12 +5,13 @@ import java.util.List;
 
 public class WeekAverage {
     private final List<Integer> temperatures;
+    private static final int DAYS_OF_WEEK = 7;
 
     public WeekAverage(){
         this.temperatures = new ArrayList<>();
     }
 
-    public int daysAbove(String input){
+    public Object daysAbove(String input){
         temperatures.addAll(inputToInteger(input));
 
         return calcDaysAbove(averageOf(temperatures), temperatures);
@@ -42,7 +43,11 @@ public class WeekAverage {
         return avg;
     }
 
-    private int calcDaysAbove(double avg, List<Integer> values){
+    private Object calcDaysAbove(double avg, List<Integer> values){
+        if (values.size() != DAYS_OF_WEEK){
+            return "Erro";
+        }
+
         int daysAbove = 0;
         for (Integer value:values){
             if (value > avg) daysAbove++;

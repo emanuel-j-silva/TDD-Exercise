@@ -10,6 +10,8 @@ public class WeekAverageTest {
     private WeekAverage weekAverage;
     private String input;
 
+    private static final String ERROR_MESSAGE = "Erro";
+
     @BeforeEach
     void setUp(){
         weekAverage = new WeekAverage();
@@ -52,7 +54,7 @@ public class WeekAverageTest {
     void shouldErrorLessThanSeven(){
         input = "1 1 1 2 3";
 
-        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
 
     @Test
@@ -60,7 +62,7 @@ public class WeekAverageTest {
     void shouldErrorGreaterThanSeven(){
         input = "1 1 1 2 2 2 3 3 3";
 
-        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
 
     @Test
@@ -68,7 +70,7 @@ public class WeekAverageTest {
     void shouldErrorNull(){
         input = null;
 
-        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
 
     @Test
@@ -76,7 +78,7 @@ public class WeekAverageTest {
     void shouldErrorEmpty(){
         input = "";
 
-        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
 
     @Test
@@ -84,6 +86,6 @@ public class WeekAverageTest {
     void shouldErrorBlank(){
         input = " ";
 
-        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
 }

@@ -47,7 +47,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeekAverageTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="TDD-Exercise" />
@@ -78,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WeekAverageTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.WeekAverageTest" />
       </list>
     </recent_temporary>
   </component>

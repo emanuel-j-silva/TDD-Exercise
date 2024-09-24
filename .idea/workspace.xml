@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: error when input contains two or more consecutive blank spaces">
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: simplify main demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.WeekAverageTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="TDD-Exercise" />
@@ -78,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.WeekAverageTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727212661773</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refactor: remove unnecessary integer list attribute">
+      <created>1727213013208</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1727213013208</updated>
+    </task>
+    <task id="LOCAL-00023" summary="refactor: simplify main demo">
+      <created>1727213158589</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1727213158589</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,6 +278,8 @@
     <MESSAGE value="feat: main demo" />
     <MESSAGE value="test: check if input contains two or more consecutive blank spaces" />
     <MESSAGE value="refactor: error when input contains two or more consecutive blank spaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: error when input contains two or more consecutive blank spaces" />
+    <MESSAGE value="refactor: remove unnecessary integer list attribute" />
+    <MESSAGE value="refactor: simplify main demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: simplify main demo" />
   </component>
 </project>

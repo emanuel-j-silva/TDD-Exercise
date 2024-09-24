@@ -1,21 +1,14 @@
 package org.example;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 public class WeekAverageTest {
 
-    private WeekAverage weekAverage;
+    private final WeekAverage weekAverage = new WeekAverage();
     private String input;
-
     private static final String ERROR_MESSAGE = "Erro";
-
-    @BeforeEach
-    void setUp(){
-        weekAverage = new WeekAverage();
-    }
 
     @Test
     @DisplayName("Should return zero on input")

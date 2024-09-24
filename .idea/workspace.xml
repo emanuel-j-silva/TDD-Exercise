@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: increase logic to calculate days above average">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: reduce code redundancy">
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727152477888</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test: reduce code redundancy">
+      <created>1727152972433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727152972433</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +128,7 @@
     <MESSAGE value="feat: simple implementation of week average class" />
     <MESSAGE value="test: should return one in sample of days of week" />
     <MESSAGE value="refactor: increase logic to calculate days above average" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: increase logic to calculate days above average" />
+    <MESSAGE value="test: reduce code redundancy" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: reduce code redundancy" />
   </component>
 </project>

@@ -30,4 +30,12 @@ public class WeekAverageTest {
 
        assertThat(weekAverage.daysAbove(input)).isEqualTo(1);
     }
+
+    @Test
+    @DisplayName("Should return three in days above average calculation")
+    void shouldReturnThree(){
+        input = "21 10 13 34 30 21 34";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(3);
+    }
 }

@@ -96,4 +96,12 @@ public class WeekAverageTest {
 
         assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
     }
+
+    @Test
+    @DisplayName("Should error when input contains two or more consecutive blank spaces")
+    void shouldErrorMoreThanOneBlank(){
+        input = " 1   11  21 21 2 30 23";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo(ERROR_MESSAGE);
+    }
 }

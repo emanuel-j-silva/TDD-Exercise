@@ -24,7 +24,7 @@ public class WeekAverage {
     }
 
     private boolean inputIsValid(String input){
-        if (input == null || input.isEmpty()) return false;
+        if (input == null || input.isEmpty() || input.contains("  ")) return false;
 
         String str = input.replaceAll("\\s","");
         char[] chars = str.toCharArray();

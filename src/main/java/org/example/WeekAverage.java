@@ -4,28 +4,48 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeekAverage {
+    private final List<Integer> temperatures;
+
+    public WeekAverage(){
+        this.temperatures = new ArrayList<>();
+    }
 
     public int daysAbove(String input){
-        int daysAbove = 0;
-        double avg = 0;
-        List<Integer> temperatures = new ArrayList<>();
+        temperatures.addAll(inputToInteger(input));
+
+        return calcDaysAbove(averageOf(temperatures), temperatures);
+    }
+
+    private List<Integer> inputToInteger(String input){
         String[] values = input.split(" ");
+        List<Integer> temperaturesOfInput = new ArrayList<>();
 
         for(String str:values){
             Integer temperature = Integer.parseInt(str);
-            temperatures.add(temperature);
+            temperaturesOfInput.add(temperature);
         }
 
-        for(Integer temperature:temperatures){
+        return temperaturesOfInput;
+    }
+
+    private double averageOf(List<Integer> temperatures){
+        double avg = 0;
+
+        for (Integer temperature:temperatures){
             avg += temperature;
         }
 
-        if (avg > 0) avg = avg / temperatures.size();
+        if (avg != 0){
+            avg /= temperatures.size();
+        }
 
-        for (Integer temperature:temperatures){
-            if (temperature > avg){
-                daysAbove++;
-            }
+        return avg;
+    }
+
+    private int calcDaysAbove(double avg, List<Integer> values){
+        int daysAbove = 0;
+        for (Integer value:values){
+            if (value > avg) daysAbove++;
         }
 
         return daysAbove;

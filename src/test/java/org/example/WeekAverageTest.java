@@ -62,4 +62,28 @@ public class WeekAverageTest {
 
         assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
     }
+
+    @Test
+    @DisplayName("Should return error when input is null")
+    void shouldErrorNull(){
+        input = null;
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+    }
+
+    @Test
+    @DisplayName("Should return error when input is empty")
+    void shouldErrorEmpty(){
+        input = "";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+    }
+
+    @Test
+    @DisplayName("Should return error when input is blank ")
+    void shouldErrorBlank(){
+        input = " ";
+
+        assertThat(weekAverage.daysAbove(input)).isEqualTo("Erro");
+    }
 }

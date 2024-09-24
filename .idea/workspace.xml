@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: check limits in the above days calculation method">
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: fix the input value of the correctly input verify method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727207195714</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test: fix the input value of the correctly input verify method">
+      <created>1727207311732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727207311732</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +177,7 @@
     <MESSAGE value="refactor: extraction of some methods to calculate days above" />
     <MESSAGE value="test: input outside domain boundaries" />
     <MESSAGE value="refactor: check limits in the above days calculation method" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: check limits in the above days calculation method" />
+    <MESSAGE value="test: fix the input value of the correctly input verify method" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: fix the input value of the correctly input verify method" />
   </component>
 </project>

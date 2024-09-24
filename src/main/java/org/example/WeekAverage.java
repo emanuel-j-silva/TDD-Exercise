@@ -7,13 +7,15 @@ public class WeekAverage {
     private final List<Integer> temperatures;
     private static final int DAYS_OF_WEEK = 7;
 
+    private static final String ERROR_MESSAGE = "Erro";
+
     public WeekAverage(){
         this.temperatures = new ArrayList<>();
     }
 
     public Object daysAbove(String input){
         if (!inputIsValid(input)){
-            return "Erro";
+            return ERROR_MESSAGE;
         }
 
         temperatures.addAll(inputToInteger(input));
@@ -53,7 +55,7 @@ public class WeekAverage {
 
     private Object calcDaysAbove(double avg, List<Integer> values){
         if (values.size() != DAYS_OF_WEEK){
-            return "Erro";
+            return ERROR_MESSAGE;
         }
 
         int daysAbove = 0;

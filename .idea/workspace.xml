@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: fix the input value of the correctly input verify method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="feat: validate the input value">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1727207311732</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="test: check if the input value is null, blank or empty">
+      <created>1727208055241</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727208055241</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: validate the input value">
+      <created>1727208275125</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1727208275125</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -178,6 +191,8 @@
     <MESSAGE value="test: input outside domain boundaries" />
     <MESSAGE value="refactor: check limits in the above days calculation method" />
     <MESSAGE value="test: fix the input value of the correctly input verify method" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: fix the input value of the correctly input verify method" />
+    <MESSAGE value="test: check if the input value is null, blank or empty" />
+    <MESSAGE value="feat: validate the input value" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: validate the input value" />
   </component>
 </project>

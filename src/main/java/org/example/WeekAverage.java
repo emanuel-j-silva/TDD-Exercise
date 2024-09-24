@@ -24,7 +24,15 @@ public class WeekAverage {
     }
 
     private boolean inputIsValid(String input){
-        return input != null && !input.isEmpty();
+        if (input == null || input.isEmpty()) return false;
+
+        String str = input.replaceAll("\\s","");
+        char[] chars = str.toCharArray();
+
+        for(Character c:chars){
+            if (!Character.isDigit(c)) return false;
+        }
+        return true;
     }
 
     private List<Integer> inputToInteger(String input){

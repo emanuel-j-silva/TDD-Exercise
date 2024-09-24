@@ -26,7 +26,7 @@ public class WeekAverageTest {
     @Test
     @DisplayName("Should return one in days above average calculation")
     void shouldReturnOne(){
-        input = "2 2 2 2 2 2 2 3";
+        input = "2 2 2 2 2 2 3";
 
        assertThat(weekAverage.daysAbove(input)).isEqualTo(1);
     }

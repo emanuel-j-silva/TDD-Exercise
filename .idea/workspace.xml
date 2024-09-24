@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="test: input outside domain boundaries">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WeekAverage.java" afterDir="false" />
+    <list default="true" id="6c7926d1-134e-43a5-992a-b5b53b7eb630" name="Changes" comment="refactor: check limits in the above days calculation method">
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WeekAverageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727206721213</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: check limits in the above days calculation method">
+      <created>1727207195714</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727207195714</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +168,7 @@
     <MESSAGE value="test: sample that should return six days above" />
     <MESSAGE value="refactor: extraction of some methods to calculate days above" />
     <MESSAGE value="test: input outside domain boundaries" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: input outside domain boundaries" />
+    <MESSAGE value="refactor: check limits in the above days calculation method" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: check limits in the above days calculation method" />
   </component>
 </project>

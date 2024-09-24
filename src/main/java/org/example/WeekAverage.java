@@ -12,9 +12,17 @@ public class WeekAverage {
     }
 
     public Object daysAbove(String input){
+        if (!inputIsValid(input)){
+            return "Erro";
+        }
+
         temperatures.addAll(inputToInteger(input));
 
         return calcDaysAbove(averageOf(temperatures), temperatures);
+    }
+
+    private boolean inputIsValid(String input){
+        return input != null && !input.isEmpty();
     }
 
     private List<Integer> inputToInteger(String input){
